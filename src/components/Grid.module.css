@@ -1,18 +1,48 @@
 .container{
-    border: 1px solid red;
-    width: 60%;
-    display: grid;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
 }
 .squareone{
     border: 1px solid blue;
-    height: 4rem;
-    width: 4rem;
-    display: flex;
+    height: 3rem;
+    width: 3rem;
+    /* display: flex; */
+    padding: 4px;
+    margin: 6px;
+}
+.squaretwo{
+    border: 1px solid blue;
+    height: 3rem;
+    width: 3rem;
+    /* display: flex; */
+    padding: 4px;
+    margin: 6px;
+}
+.squarethree{
+    border: 1px solid blue;
+    height: 3rem;
+    width: 3rem;
+    /* display: flex; */
+    padding: 4px;
+    margin: 6px;
+}
+.squarefour{
+    border: 1px solid blue;
+    height: 3rem;
+    width: 3rem;
+    /* display: flex; */
+    padding: 4px;
+    margin: 6px;
+}
+.squarefive{
+    border: 1px solid blue;
+    height: 3rem;
+    width: 3rem;
+    /* display: flex; */
     padding: 4px;
     margin: 6px;
 }
